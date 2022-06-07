@@ -1,0 +1,485 @@
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900);
+*{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+html,
+body {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  place-items: center;
+  background: linear-gradient(315deg, #ffffff, #d7e1ec);
+  background: url(https://p4.wallpaperbetter.com/wallpaper/715/830/515/simple-background-white-texture-white-background-web-design-wallpaper-preview.jpg);
+}
+header{
+    width: 100%;
+}
+header nav{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: auto;
+    background-color: #fff;
+    position:fixed;
+    
+}
+.menu_bar{
+    display: none;
+}
+
+header nav ul{
+    overflow: hidden;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header nav ul li{
+    float: left;
+}
+header nav ul li a{
+    color: rgb(213, 14, 154);
+    padding: 20px;
+    display: block;
+    text-decoration: none;   
+    border-radius: 25px solid ;
+}
+
+header nav ul li span{
+margin-right: 10px;
+
+}
+header nav ul li a:hover{
+    background-color: rgb(181, 143, 218);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulo h1{
+font-size: 605%;
+padding: 25px;
+color: rgb(213, 14, 154);
+}
+section{
+    padding: 20px;
+}
+@media screen and (max-width:800px) {
+    
+    header nav {
+    width:80%;
+    height:100%;
+    margin:0;
+    position:fixed;
+
+}
+header nav ul li{
+    display: block;
+    float: none;
+    border-bottom:1px solid rgb(213, 14, 154);
+}
+.menu_bar{
+    display: block;
+    width: 100%;
+    background:rgb(240, 238, 237);
+}
+
+.menu_bar .bt-menu{
+    display: block;
+    padding: 80px;
+    background:rgb(240, 238, 237);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+
+    -webkit-box-sizing:border-box ;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;}
+
+    .menu_bar span {
+		float:right;
+		font-size:40px;
+	}
+
+}
+
+
+.menu_bar {
+  display:block;
+  width:100%;
+  background:#ccc;
+}
+
+.menu_bar .bt-menu {
+  display:block;
+  padding:20px;
+  background:white;
+  color:slateblue;
+  text-decoration:none;
+  font-size:20px;
+ 
+}
+
+.menu_bar span {
+  float:right;
+  font-size:40px;
+}
+
+/*pdf*/
+.pdf{
+  margin: 25px;
+  padding: 55px;
+}
+
+/** Acerca de **/
+.acerca-de{
+	width: 90%;
+	padding: 50px;
+	margin-top: 20px;
+}
+.acerca-de .left{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin-bottom: 70px;
+}
+.acerca-de .right{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.acerca-de .info{
+	width: 70%;
+	padding:0px 30px;
+}
+.acerca-img{
+	width: 40%;
+	height: 40%;
+}
+.acerca-img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+}
+.acerca-de .info h2{
+	margin:15px;
+	font-size: 30px;
+	color:#9e579d;
+}
+.acerca-de .info p{
+	font-size: 17px;
+	color: var(--color1);
+	line-height: 27px;
+	margin: 10px 0px;
+}
+.read-more{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+.read-more > a{
+	width: 200px;
+	height: 50px;
+	background: #fff;
+	text-decoration: none;
+	color: var(--color1);
+	font-size: 20px;
+	text-align: center;
+	transition: 0.5s ease-in-out;
+	border:1px solid var(--color1);
+	border-radius: 10px;
+	padding:12px;
+}
+.read-more > a:hover{
+	background: var(--color1);
+	color: #fff;
+	border:1px solid #fff;
+}
+
+/** Como suena **/
+
+.comosuena{
+  margin-bottom: 55px;
+}
+.comosuena h1{
+  color: #1877F2;
+  text-align: center;
+  padding-bottom: 25px;
+}
+/*Formulario*/
+.formulario{
+  margin: 35px;
+  color:whitesmoke;
+  background-color:slateblue; 
+  padding: 25px;
+  border-radius: 15px;
+}
+.btnenv{
+  background-color: slateblue;
+  border:none;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/*Tabla*/
+
+table {
+  border-collapse:initial;
+  border-spacing: 5px;
+  background:whitesmoke;
+  color: slateblue;
+  padding: 15px;
+}
+td, th {
+  background:slateblue;
+  color:whitesmoke;
+  padding: 10px;
+}
+
+/*Se toma el template de Auther: Abdelrhman Said y se adapta */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+}
+
+.wrapper .icon {
+  position: relative;
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #1877F2;
+  color: #ffffff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background: #1DA1F2;
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #E4405F;
+  color: #ffffff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background: slateblue;
+  color: #ffffff;
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background: #CD201F;
+  color: #ffffff;
+}
+
+.wrapper .tiktok:hover,
+.wrapper .tiktok:hover .tooltip,
+.wrapper .tiktok:hover .tooltip::before {
+  background: black;
+  color: #ffffff;
+}
+
+.wrapper .bluetooth:hover,
+.wrapper .bluetooth:hover .tooltip,
+.wrapper .bluetooth:hover .tooltip::before {
+  background:orange;
+  color:white;
+}
+
+
+.wrapper .amazon:hover,
+.wrapper .amazon:hover .tooltip,
+.wrapper .amazon:hover .tooltip::before {
+  background: #fa9525;
+  color: white;
+}
+
+
+
+.wrapper .whatsapp:hover,
+.wrapper .whatsapp:hover .tooltip,
+.wrapper .whatsapp:hover .tooltip::before {
+  background: #2cb742;
+  color:white;
+}
+
+
+.wrapper .telegram:hover,
+.wrapper .telegram:hover .tooltip,
+.wrapper .telegram:hover .tooltip::before {
+  background: #158ad9;
+  color:white;
+}
+
+/*Footer*/
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 30px 30px 20px 30px;
+  color: rgb(213, 14, 154);
+  background-color: #fff;
+  border-top: 1px solid #e5e5e5;
+  width: 100%;
+}
+
+.footer > * {
+  flex:  1 100%;
+}
+
+.footer__addr {
+  margin-left: 80px;
+  margin-top: 40px;
+}
+
+.nav__title {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer li {
+  line-height: 2em;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer__nav {
+  display: flex;
+	flex-flow: row wrap;
+}
+
+.footer__nav > * {
+  flex: 1 50%;
+  margin-right: 1.25em;
+}
+
+.nav__ul a {
+  color: #999;
+}
+
+.nav__ul--extra {
+  column-count: 2;
+  column-gap: 1.25em;
+}
+
+.legal {
+  color: rgb(213, 14, 154);
+  text-align: center;
+}
+  
+
+.heart {
+  color: #2f2f2f;
+}
+
+@media screen and (min-width: 24.375em) {
+  .legal {
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 40.375em) {
+  .footer__nav > * {
+    flex: 1;
+  }
+  
+  .nav__item--extra {
+    flex-grow: 2;
+  }
+  
+  .footer__addr {
+    flex: 1 0px;
+  }
+  
+  .footer__nav {
+    flex: 2 0px;
+  }
+}
+
+
+
+  
